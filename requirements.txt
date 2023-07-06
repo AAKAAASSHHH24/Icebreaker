@@ -1,3 +1,6 @@
 langchain
 black
 tweepy
+flask
+openai
+python-dotenv
