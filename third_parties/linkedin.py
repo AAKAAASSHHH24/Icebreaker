@@ -13,7 +13,6 @@ def scrape_linkedin_profile(linkedin_profile_url: str):
     )
 
     data = response.json()
-    # Clean the unnecessary/empty data that is returned by the respose to remain within the token limits
     data = {
         k: v
         for k, v in data.items()
