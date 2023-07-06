@@ -30,7 +30,7 @@ class CustomSerpAPIWrapper(SerpAPIWrapper):
         ):
             toret = res["knowledge_graph"]["description"]
         elif "snippet" in res["organic_results"][0].keys():
-            toret = res["organic_results"][0]["link"]     # edited to get the link only as per need
+            toret = res["organic_results"][0]["link"]
 
         else:
             toret = "No good search result found"
