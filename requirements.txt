@@ -4,3 +4,4 @@ tweepy
 flask
 openai
 python-dotenv
+google-search-results
